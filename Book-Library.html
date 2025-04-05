@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Library</title>
+    <link rel="stylesheet" href="./Book-Library.css">
+</head>
+<body>
+    <div class="AllView">
+        <header class="mainTitle">
+            <h1>Book Library</h1>
+        </header>
+        <div class="first-page">
+            <p class="hmBooks">How many Books?</p>
+            <input class="numOfBooks" type="text" placeholder="Enter Books No.">
+            <button class="ok">OK</button>
+            <div class="p-first-page displayNone">
+                
+            </div>
+        </div>
+        <div class="second-page displayNone">
+            <form action="" >
+                <label for="">Book's Name</label>
+                <input class="bName" type="text" placeholder="Enter Book Name">
+                <p class="errBName displayNone"></p>
+                <label for="">Price</label>
+                <input class="price" type="text" placeholder="Book Price">
+                <p class="errPrice displayNone"></p>
+                <label for="">Author Name</label>
+                <input class="auName" type="text" placeholder="Enter Author Name">
+                <p class="errAuName displayNone"></p>
+                <label for="">Author E-mail</label>
+                <input class="auEmail" type="text" placeholder="Enter Author E-mail">
+                <p class="errAuEmail displayNone"></p>
+                <div class="formBtn">
+                    <button class="addBtn">Add Book</button>
+                    <p class="bSubmitted displayNone"></p>
+                </div>
+            </form>
+        </div>
+        <div class="third-page displayNone">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Book Name</th>
+                        <th>Price</th>
+                        <th>Author Name</th>
+                        <th>Author E-mail</th>
+                        <th colspan="2">Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                   
+                </tbody>
+            </table>
+        </div>
+        
+    </div>
+    <script type="module" src="./Book-Library.js"></script>
+</body>
+</html>
